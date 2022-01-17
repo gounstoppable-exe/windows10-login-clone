@@ -5,11 +5,11 @@ This is clone of windows 10's user login screen's UI. `This clone can only be vi
 Built using HTML & CSS Only!
 
 ### Preview:
-[Live preview of this project]()
+[Live preview of this project](https://windows-10-login-clone.netlify.app/)
 
-![Lines of code](https://img.shields.io/tokei/lines/github/EAGLE1309/yokami-website-concept?color=%2300cc52)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EAGLE1309/yokami-website-concept?color=%2300cc52)
-![languages](https://img.shields.io/github/languages/count/EAGLE1309/yokami-website-concept?color=%2300cc52)
+![Lines of code](https://img.shields.io/tokei/lines/github/gounstoppable-exe/windows10-login-clone?color=%2300cc52)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gounstoppable-exe/windows10-login-clone?color=%2300cc52)
+![languages](https://img.shields.io/github/languages/count/gounstoppable-exe/windows10-login-clone?color=%2300cc52)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1a19b3ee-9614-4ad8-b253-80ef865fe7a7/deploy-status)](https://app.netlify.com/sites/zen-shockley-ffba98/deploys)
 
 
@@ -21,5 +21,5 @@ Report Bugs and glitches to gounstoppable.exe@protonmail.com
 ### Screenshots:
 ![Screenshot of site](https://i.ibb.co/Sm2M2Ns/Screenshot-from-2022-01-17-15-26-21.png)
 
-### Made with ❤️ by GoUnstoppable™️!
-![madeByEagle](https://socialify.git.ci/EAGLE1309/yokami-website-concept/image?description=1&font=Inter&language=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
+### Made with ❤️ by GoUnstoppable™!
+![windows10-login-clone](https://socialify.git.ci/gounstoppable-exe/windows10-login-clone/image?font=Raleway&language=1&name=1&owner=1&pattern=Formal%20Invitation&theme=Dark)
