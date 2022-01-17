@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow: hidden;
+  background: url(images/background.jpg) no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.center_area {
+  margin-bottom: 5rem;
+}
+.center_area figure img {
+  width: 10rem;
+  border-radius: 50%;
+  filter: drop-shadow(0 10px 25px #00000050);
+}
+.username {
+  color: #fff;
+  font-size: 2.1rem;
+  margin-top: 0.8rem;
+  font-weight: 500;
+}
+.password_area {
+  margin-top: 1.5rem;
+  display: flex;
+}
+.password_area input {
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.8rem;
+  background-color: #27272760;
+  backdrop-filter: blur(2px);
+  outline: 3px solid rgb(112, 112, 112);
+  color: #fff;
+}
+.password_area input:focus {
+  background-color: #111111;
+  /* outline: 3px solid rgb(80, 80, 80); */
+}
+.password_area button {
+  border: none;
+  outline: none;
+  outline: 3px solid rgb(112, 112, 112);
+  margin-left: 0.3rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(112, 112, 112);
+  position: relative;
+  cursor: pointer;
+}
+.password_area button:hover {
+  background-color: rgb(138, 138, 138);
+  outline: 3px solid rgb(138, 138, 138);
+}
+.password_area button .iconify {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.4rem;
+}
+.system_icons {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  color: #fff;
+  font-size: 1.9rem;
+}
+.system_icons .iconify {
+  margin-right: 0.3rem;
+}
+.system_icons .iconify:hover {
+  color: rgb(207, 207, 207);
+}
+.more_users {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+}
+.user:hover {
+  background-color: rgb(99, 99, 99);
+}
+.user img {
+  width: 3.4rem;
+  border-radius: 50%;
+}
+.user p {
+  align-self: center;
+  margin-left: 0.8rem;
+  color: #fff;
+}
+.phone_warning{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .center_area figure img {
+    width: 8rem;
+  }
+  .username {
+    font-size: 1.8rem;
+  }
+  .password_area input {
+    width: 16rem;
+  }
+  .system_icons {
+    font-size: 1.6rem;
+  }
+  .user img {
+    width: 2.2rem;
+  }
+  .user p {
+      font-size: 0.9rem;    
+  }
+}
+@media screen and (max-width: 375px){
+    main{
+        display: none;
+    }
+    .phone_warning{
+        width: 100vw; height: 100vh;
+        display: flex;
+        justify-content: center; align-items: center;
+        flex-direction: column;
+    }
+    .phone_warning h1{
+        width: 93vw;
+        color: #fff;
+        text-align: left;
+    }
+    .phone_warning p{
+        margin-top: 0.5rem;
+        color: rgb(212, 212, 212);
+        width: 93vw;
+        font-size: 0.9rem;
+    }
+}
